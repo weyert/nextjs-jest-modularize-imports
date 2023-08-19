@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Application",
+    "extends": "./service-dom.json",
+    "compilerOptions": {
+      "noEmit": true
+    }
+  }
+  

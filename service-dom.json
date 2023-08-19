@@ -1,0 +1,13 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "DOM",
+    "extends": "./service-base.json",
+    "compilerOptions": {
+      "jsx": "react",
+      "lib": ["dom", "dom.iterable", "es2018", "esnext.asynciterable", "scripthost"],
+      "module": "ESNext",
+      "target": "ES2018"
+    },
+    "files": ["./types/images.d.ts", "./types/styles.d.ts"]
+  }
+  
